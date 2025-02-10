@@ -1,17 +1,17 @@
 import React from "react";
 import Banner from "./Banner.jsx";
-import { atomic1 } from "../../assets/books.jsx";
-import atomic from "../../assets/imgs/AtomicHabits.jpg";
-import essays from "../../assets/imgs/101Essays.jpg";
-import sapiens from "../../assets/imgs/Sapiens.jpg";
-import laws from "../../assets/imgs/48LawsOfPower.jpg";
-import canthurt from "../../assets/imgs/CantHurtMe.jpg";
-import manssearch from "../../assets/imgs/MansSearchForMeaning.jpg";
-import words from "../../assets/imgs/WordsThatWork.jpg";
-// import { AtomicHabits } from "../../assets/books.jsx";
+import {
+  atomic,
+  essays,
+  sapiens,
+  laws,
+  canthurt,
+  manssearch,
+  words
+} from '../../assets/books.jsx';
 
 function App() {
-  console.log("atomic", atomic1);
+  console.log("atomic", atomic);
   return (
     <div id="App">
       <div className="banner">
@@ -46,7 +46,7 @@ function App() {
               <div
                 className="front side"
                 style={{
-                  backgroundImage: `url(${atomic1})`,
+                  backgroundImage: `url(${atomic})`,
                   backgroundPosition: "center",
                   backgroundSize: "100% 100%",
                 }}
@@ -103,6 +103,9 @@ function App() {
             <img src={sapiens} alt="" />
           </div>
         </div>
+      </div>
+      <div className="here">
+        <p>asdjfasdf</p>
       </div>
       {/* <Banner /> */}
     </div>

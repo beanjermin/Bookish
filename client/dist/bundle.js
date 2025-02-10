@@ -10,21 +10,36 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   atomic1: () => (/* binding */ atomic1)
+/* harmony export */   atomic: () => (/* binding */ atomic),
+/* harmony export */   canthurt: () => (/* binding */ canthurt),
+/* harmony export */   essays: () => (/* binding */ essays),
+/* harmony export */   laws: () => (/* binding */ laws),
+/* harmony export */   manssearch: () => (/* binding */ manssearch),
+/* harmony export */   sapiens: () => (/* binding */ sapiens),
+/* harmony export */   words: () => (/* binding */ words)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _imgs_48LawsOfPower_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/48LawsOfPower.jpg */ "./client/assets/imgs/48LawsOfPower.jpg");
-/* harmony import */ var _imgs_101Essays_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/101Essays.jpg */ "./client/assets/imgs/101Essays.jpg");
-/* harmony import */ var _imgs_AtomicHabits_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgs/AtomicHabits.jpg */ "./client/assets/imgs/AtomicHabits.jpg");
+/* harmony import */ var _imgs_48LawsOfPower_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./imgs/48LawsOfPower.jpg */ "./client/assets/imgs/48LawsOfPower.jpg");
+/* harmony import */ var _imgs_101Essays_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./imgs/101Essays.jpg */ "./client/assets/imgs/101Essays.jpg");
+/* harmony import */ var _imgs_AtomicHabits_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/AtomicHabits.jpg */ "./client/assets/imgs/AtomicHabits.jpg");
+/* harmony import */ var _imgs_Sapiens_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./imgs/Sapiens.jpg */ "./client/assets/imgs/Sapiens.jpg");
+/* harmony import */ var _imgs_CantHurtMe_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./imgs/CantHurtMe.jpg */ "./client/assets/imgs/CantHurtMe.jpg");
+/* harmony import */ var _imgs_MansSearchForMeaning_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./imgs/MansSearchForMeaning.jpg */ "./client/assets/imgs/MansSearchForMeaning.jpg");
+/* harmony import */ var _imgs_WordsThatWork_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./imgs/WordsThatWork.jpg */ "./client/assets/imgs/WordsThatWork.jpg");
 
 
 
 
 
-// const atomic = AtomicHabits;
 
-var atomic1 = _imgs_AtomicHabits_jpg__WEBPACK_IMPORTED_MODULE_3__["default"];
+
+var atomic = _imgs_AtomicHabits_jpg__WEBPACK_IMPORTED_MODULE_2__["default"];
+var essays = _imgs_101Essays_jpg__WEBPACK_IMPORTED_MODULE_1__["default"];
+var laws = _imgs_48LawsOfPower_jpg__WEBPACK_IMPORTED_MODULE_0__["default"];
+var sapiens = _imgs_Sapiens_jpg__WEBPACK_IMPORTED_MODULE_3__["default"];
+var canthurt = _imgs_CantHurtMe_jpg__WEBPACK_IMPORTED_MODULE_4__["default"];
+var manssearch = _imgs_MansSearchForMeaning_jpg__WEBPACK_IMPORTED_MODULE_5__["default"];
+var words = _imgs_WordsThatWork_jpg__WEBPACK_IMPORTED_MODULE_6__["default"];
+
 
 /***/ }),
 
@@ -42,27 +57,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Banner_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner.jsx */ "./client/src/components/Banner.jsx");
 /* harmony import */ var _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/books.jsx */ "./client/assets/books.jsx");
-/* harmony import */ var _assets_imgs_AtomicHabits_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/imgs/AtomicHabits.jpg */ "./client/assets/imgs/AtomicHabits.jpg");
-/* harmony import */ var _assets_imgs_101Essays_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/imgs/101Essays.jpg */ "./client/assets/imgs/101Essays.jpg");
-/* harmony import */ var _assets_imgs_Sapiens_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/imgs/Sapiens.jpg */ "./client/assets/imgs/Sapiens.jpg");
-/* harmony import */ var _assets_imgs_48LawsOfPower_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/imgs/48LawsOfPower.jpg */ "./client/assets/imgs/48LawsOfPower.jpg");
-/* harmony import */ var _assets_imgs_CantHurtMe_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/imgs/CantHurtMe.jpg */ "./client/assets/imgs/CantHurtMe.jpg");
-/* harmony import */ var _assets_imgs_MansSearchForMeaning_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/imgs/MansSearchForMeaning.jpg */ "./client/assets/imgs/MansSearchForMeaning.jpg");
-/* harmony import */ var _assets_imgs_WordsThatWork_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/imgs/WordsThatWork.jpg */ "./client/assets/imgs/WordsThatWork.jpg");
 
 
-
-
-
-
-
-
-
-
-// import { AtomicHabits } from "../../assets/books.jsx";
 
 function App() {
-  console.log("atomic", _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.atomic1);
+  console.log("atomic", _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.atomic);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     id: "App"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -82,7 +81,7 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "In Progress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "front side",
     style: {
-      backgroundImage: "url(".concat(_assets_imgs_WordsThatWork_jpg__WEBPACK_IMPORTED_MODULE_9__["default"], ")"),
+      backgroundImage: "url(".concat(_assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.words, ")"),
       backgroundPosition: "center",
       backgroundSize: "100% 100%"
     }
@@ -105,7 +104,7 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "front side",
     style: {
-      backgroundImage: "url(".concat(_assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.atomic1, ")"),
+      backgroundImage: "url(".concat(_assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.atomic, ")"),
       backgroundPosition: "center",
       backgroundSize: "100% 100%"
     }
@@ -124,7 +123,7 @@ function App() {
       // transform: "translateZ(550px)",
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_imgs_101Essays_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.essays,
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "item",
@@ -133,7 +132,7 @@ function App() {
       // transform: "translateZ(550px)",
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_imgs_48LawsOfPower_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    src: _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.laws,
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "item",
@@ -142,7 +141,7 @@ function App() {
       // transform: "translateZ(550px)",
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_imgs_CantHurtMe_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
+    src: _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.canthurt,
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "item",
@@ -151,7 +150,7 @@ function App() {
       // transform: "translateZ(550px)",
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_imgs_MansSearchForMeaning_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
+    src: _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.manssearch,
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "item",
@@ -160,9 +159,11 @@ function App() {
       // transform: "translateZ(550px)",
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_imgs_Sapiens_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    src: _assets_books_jsx__WEBPACK_IMPORTED_MODULE_2__.sapiens,
     alt: ""
-  })))));
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "here"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "asdjfasdf")));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
