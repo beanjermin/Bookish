@@ -1,5 +1,6 @@
 import React from "react";
-import Banner from "./Banner.jsx";
+import Carousel from "./Section-2/carousel/Carousel.jsx";
+import { GlobalStyles } from "./GlobalStyles.js";
 import {
   atomic,
   essays,
@@ -7,14 +8,23 @@ import {
   laws,
   canthurt,
   manssearch,
-  words
-} from '../../assets/books.jsx';
+  words,
+  bgImg,
+} from "../../assets/assets.jsx";
 
 function App() {
-  console.log("atomic", atomic);
   return (
     <div id="App">
-      <div className="banner">
+      <GlobalStyles />
+      
+    </div>
+  );
+}
+
+export default App;
+
+/*
+<div className="banner">
         <p className="title">Bookish</p>
         <div className="slider" style={{ quantity: "10" }}>
           <div className="cube" style={{ transform: "rotateX(0)" }}>
@@ -40,8 +50,6 @@ function App() {
               // transform: "translateZ(550px)",
             }}
           >
-            {/* <img src={atomic} alt="" />
-             */}
             <div className="cube">
               <div
                 className="front side"
@@ -107,9 +115,4 @@ function App() {
       <div className="here">
         <p>asdjfasdf</p>
       </div>
-      {/* <Banner /> */}
-    </div>
-  );
-}
-
-export default App;
+*/

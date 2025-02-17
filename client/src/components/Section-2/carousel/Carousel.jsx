@@ -4,9 +4,6 @@ function Banner() {
   return (
     <div>
       <p>Banner</p>
-      <div className='slider'>
-
-      </div>
     </div>
   );
 }
