@@ -179,17 +179,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Section_2_carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section-2/carousel/Carousel.jsx */ "./client/src/components/Section-2/carousel/Carousel.jsx");
-/* harmony import */ var _GlobalStyles_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./GlobalStyles.js */ "./client/src/components/GlobalStyles.js");
-/* harmony import */ var _assets_assets_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/assets.jsx */ "./client/assets/assets.jsx");
+/* harmony import */ var _Section_1_header_Header_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section-1/header/Header.jsx */ "./client/src/components/Section-1/header/Header.jsx");
+/* harmony import */ var _Section_2_carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section-2/carousel/Carousel.jsx */ "./client/src/components/Section-2/carousel/Carousel.jsx");
+/* harmony import */ var _GlobalStyles_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./GlobalStyles.js */ "./client/src/components/GlobalStyles.js");
 
 
 
 
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "App"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_GlobalStyles_js__WEBPACK_IMPORTED_MODULE_2__.GlobalStyles, null));
+    className: "App"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_GlobalStyles_js__WEBPACK_IMPORTED_MODULE_3__.GlobalStyles, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_GlobalStyles_js__WEBPACK_IMPORTED_MODULE_3__.Section1, {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Section_1_header_Header_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_GlobalStyles_js__WEBPACK_IMPORTED_MODULE_3__.Section2, {
+    className: "section"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Section_2_carousel_Carousel_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_GlobalStyles_js__WEBPACK_IMPORTED_MODULE_3__.Section3, {
+    className: "section"
+  }, "Section 3"));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -299,16 +305,68 @@ function App() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   GlobalStyles: () => (/* binding */ GlobalStyles),
-/* harmony export */   Section1: () => (/* binding */ Section1)
+/* harmony export */   Section1: () => (/* binding */ Section1),
+/* harmony export */   Section2: () => (/* binding */ Section2),
+/* harmony export */   Section3: () => (/* binding */ Section3)
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 /* harmony import */ var _assets_assets__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../assets/assets */ "./client/assets/assets.jsx");
-var _templateObject, _templateObject2;
+var _templateObject, _templateObject2, _templateObject3, _templateObject4;
 function _taggedTemplateLiteral(e, t) { return t || (t = e.slice(0)), Object.freeze(Object.defineProperties(e, { raw: { value: Object.freeze(t) } })); }
 
 
-var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    body {\n        background-image: URL(", ");\n    }\n"])), _assets_assets__WEBPACK_IMPORTED_MODULE_0__.bgImg);
-var Section1 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral([""])));
+var GlobalStyles = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__.createGlobalStyle)(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n    html, body, main, .root, .App {\n        height: 100%;\n    }\n\n    body {\n        background-image: URL(", ");\n        font-family: 'Libre Baskerville', 'League Spartan', sans-serif;\n    }\n\n    .section {\n        padding: 1rem;\n        box-sizing: border-box;\n    }\n"])), _assets_assets__WEBPACK_IMPORTED_MODULE_0__.bgImg);
+var Section1 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n    height: 8%;\n    border: 1px solid red;\n"])));
+var Section2 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n    height: 50%;\n    border: 1px solid blue;\n"])));
+var Section3 = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n    height: 42%;\n    border: 1px solid yellow\n"])));
+
+/***/ }),
+
+/***/ "./client/src/components/Section-1/header/Header.jsx":
+/*!***********************************************************!*\
+  !*** ./client/src/components/Section-1/header/Header.jsx ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.styled */ "./client/src/components/Section-1/header/Header.styled.js");
+
+
+function Header() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_styled__WEBPACK_IMPORTED_MODULE_1__.HeaderRoot, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_styled__WEBPACK_IMPORTED_MODULE_1__.TitleWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_styled__WEBPACK_IMPORTED_MODULE_1__.Title, null, "bookish."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Header_styled__WEBPACK_IMPORTED_MODULE_1__.SubTitle, null, "booklist")));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
+
+/***/ }),
+
+/***/ "./client/src/components/Section-1/header/Header.styled.js":
+/*!*****************************************************************!*\
+  !*** ./client/src/components/Section-1/header/Header.styled.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HeaderRoot: () => (/* binding */ HeaderRoot),
+/* harmony export */   SubTitle: () => (/* binding */ SubTitle),
+/* harmony export */   Title: () => (/* binding */ Title),
+/* harmony export */   TitleWrapper: () => (/* binding */ TitleWrapper)
+/* harmony export */ });
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+var _templateObject, _templateObject2, _templateObject3, _templateObject4;
+function _taggedTemplateLiteral(e, t) { return t || (t = e.slice(0)), Object.freeze(Object.defineProperties(e, { raw: { value: Object.freeze(t) } })); }
+
+var HeaderRoot = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  "])));
+var TitleWrapper = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  line-height: .75;\n"])));
+var Title = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h1(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  font-family: \"League Spartan\";\n  font-weight: 700;\n  font-size: 40px;\n"])));
+var SubTitle = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].h2(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  font-size: 14px;\n  font-weight: 400;\n  font-family: \"Quicksand\";\n  letter-spacing: 4px;\n"])));
 
 /***/ }),
 

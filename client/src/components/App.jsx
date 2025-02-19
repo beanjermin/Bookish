@@ -1,22 +1,19 @@
 import React from "react";
+import Header from "./Section-1/header/Header.jsx";
 import Carousel from "./Section-2/carousel/Carousel.jsx";
-import { GlobalStyles } from "./GlobalStyles.js";
-import {
-  atomic,
-  essays,
-  sapiens,
-  laws,
-  canthurt,
-  manssearch,
-  words,
-  bgImg,
-} from "../../assets/assets.jsx";
+import { GlobalStyles, Section1, Section2, Section3 } from "./GlobalStyles.js";
 
 function App() {
   return (
-    <div id="App">
+    <div className="App">
       <GlobalStyles />
-      
+      <Section1 className="section">
+        <Header />
+      </Section1>
+      <Section2 className="section">
+        <Carousel />
+      </Section2>
+      <Section3 className="section">Section 3</Section3>
     </div>
   );
 }
