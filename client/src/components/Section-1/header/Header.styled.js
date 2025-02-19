@@ -17,11 +17,12 @@ export const TitleWrapper = styled.div`
 export const Title = styled.h1`
   font-family: "League Spartan";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
+  /* font-size: calc(2vw + 2vh + 1vmin) */
 `;
 
 export const SubTitle = styled.h2`
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: "Quicksand";
   letter-spacing: 4px;

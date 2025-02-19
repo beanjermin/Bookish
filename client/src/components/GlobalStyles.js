@@ -20,6 +20,7 @@ export const GlobalStyles = createGlobalStyle`
 export const Section1 = styled.div`
     height: 8%;
     border: 1px solid red;
+    min-height: 75px;
 `;
 
 export const Section2 = styled.div`
