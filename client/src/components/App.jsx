@@ -13,7 +13,9 @@ function App() {
       <Section2 className="section">
         <Carousel />
       </Section2>
-      <Section3 className="section"><div>Section 3</div></Section3>
+      <Section3 className="section">
+        <div>Section 3</div>
+      </Section3>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 const mysql = require("mysql2/promise");
 
 const dbConnect = mysql.createConnection({
-  user: "root",
-  password: "12345",
-  database: "bookish",
+  user: process.env.USER,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE,
 });
 
 dbConnect
